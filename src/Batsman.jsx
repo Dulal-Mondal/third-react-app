@@ -20,12 +20,10 @@ export default function Batsman() {
 
             <button onClick={() => handleRuns(1)}>Single</button>
             <button onClick={() => handleRuns(2)}>Double</button>
+            <button onClick={() => handleRuns(3)}>Three</button>
             <button onClick={() => handleRuns(4)}>Four</button>
             <button onClick={() => handleRuns(6)}>Six</button>
-
         </div>
-
-
 
     )
 }
